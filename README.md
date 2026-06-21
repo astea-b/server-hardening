@@ -22,6 +22,7 @@ find / -mtime -1 -ls
 grep "Failed password" /var/log/auth.log | tail -n 20
 # Examine Nginx error logs for exploit patterns
 tail -f /var/log/nginx/error.log
+```
 
 ## 2. Remediation
 *Neutralizing unauthorized access and cleaning system artifacts.*
@@ -34,6 +35,7 @@ rm -rf /tmp/.hidden_dir
 # Credential Audit
 nano ~/.ssh/authorized_keys # Remove unauthorized keys
 passwd <username>           # Reset compromised account
+```
 
 ## 3. Hardening Baseline (The "Fortress" Setup)
 *Proactive measures to minimize the attack surface.*
@@ -64,6 +66,7 @@ mount -o remount /tmp
 
 # Nginx hardening (nginx.conf)
 server_tokens off;
+```
 
 ## 4. Proactive Monitoring (Fail2Ban)
 bash
