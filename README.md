@@ -69,7 +69,7 @@ server_tokens off;
 ```
 
 ## 4. Proactive Monitoring (Fail2Ban)
-bash
+```bash
 apt install fail2ban -y
 
 # Configured /etc/fail2ban/jail.local to auto-ban brute-force actors
