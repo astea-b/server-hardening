@@ -40,7 +40,7 @@ passwd <username>           # Reset compromised account
 ## 3. Hardening Baseline (The "Fortress" Setup)
 *Proactive measures to minimize the attack surface.*
 ### SSH Security
-# Edit /etc/ssh/sshd_config
+### Edit /etc/ssh/sshd_config
 
 ```bash
 Port 2222
