@@ -37,7 +37,7 @@ nano ~/.ssh/authorized_keys # Remove unauthorized keys
 passwd <username>           # Reset compromised account
 ```
 
-## 3. Hardening Baseline (The "Fortress" Setup)
+## 3. Hardening Baseline 
 *Proactive measures to minimize the attack surface.*
 ### SSH Security
 ### Edit /etc/ssh/sshd_config
